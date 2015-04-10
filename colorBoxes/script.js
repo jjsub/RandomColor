@@ -4,4 +4,10 @@ var element     = document.querySelectAll(""),
     chroma      = [],
     nowChroma  = [];
 
-    
+    setTimeout(function(){
+
+
+
+
+
+    }, 1000);

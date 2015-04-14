@@ -1,6 +1,6 @@
 /* Let the ramdon color begins */
 
-var element     = document.querySelectAll(""),
+var element     = document.querySelectorAll("pre"),
     chroma      = ["red","red","orange","yellow","chartreuse","cyan","violet","purple","purple","indigo" ],
     nowChroma   = [],
     i;
@@ -22,4 +22,4 @@ var element     = document.querySelectAll(""),
         element[i].style.color = nowChroma[i];
       }
 
-    }, 1000);
+    }, 100);

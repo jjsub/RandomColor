@@ -1,11 +1,11 @@
 /* Let the ramdon color begins */
 
 var element     = document.querySelectAll(""),
-    chroma      = [],
+    chroma      = ["red","red","orange","yellow","chartreuse","cyan","violet","purple","purple","indigo" ],
     nowChroma   = [],
     i;
 
-    setTimeout(function(){
+    setInterval(function(){
       
       for(i = 0; i < element.length; i ++){
           if( i == element.length-1){
@@ -18,7 +18,7 @@ var element     = document.querySelectAll(""),
               nowChroma[i] = chroma[i+1];
 
           }
-          
+
         element[i].style.color = nowChroma[i];
       }
 

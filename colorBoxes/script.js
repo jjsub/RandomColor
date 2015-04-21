@@ -22,4 +22,4 @@ var element     = document.querySelectorAll("pre"),
         element[i].style.color = nowChroma[i];
       }
 
-    }, 100);
+    }, 1000);
